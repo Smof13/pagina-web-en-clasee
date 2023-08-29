@@ -1,0 +1,44 @@
+.container_header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header_texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+  }
+  
+  .nombre {
+    font-size: 40px; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+  }
+  
+  .profesion {
+    font-size: 20px; /* Tamaño de fuente más grande */
+    color: #464141;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header_img{
+    width: 50%;
+    margin-left: 20px;
+  
+  }
+  
+  .header_img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+  }
+  

@@ -1,0 +1,25 @@
+.home{
+  font-size: 38;
+  color: blue;
+}
+
+.estilo_cards_concat{
+  display: flex;
+  gap: 20px;
+}
+
+.App{
+  background: linear-gradient(to bottom, #f0f0f0, #000000);
+}
+
+#skills{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+html{
+  scroll-behavior: smooth;
+}

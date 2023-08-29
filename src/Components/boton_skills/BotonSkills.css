@@ -1,0 +1,19 @@
+.container_boton{
+    width: 100%;
+    height: 40px;
+    padding-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.boton_skills{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background: rgb(119, 117, 117);
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
