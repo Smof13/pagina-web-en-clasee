@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Navbar2/Navbar2.css'
-import logo from '../../Assets/CSS_LOGO.png'
+import logo from '../../Assets/logodos.png'
 
 function Navbar2() {
   return (
@@ -13,9 +13,10 @@ function Navbar2() {
             <li><a href='#'>inicio</a></li>
             <li><a href='#SobreMi'>Sobre mi</a></li>
             <li><a href='#Skills'>Habilidades</a></li>
+            <li><a href='#proyectos'>Proyectos </a></li>
             </ul>
         </nav>
-        <a href='#' className='btn'><button>Contactame</button></a>
+        <a href='#Footer' className='btn'><button>Contactame</button></a>
     </header>
   )
 }
